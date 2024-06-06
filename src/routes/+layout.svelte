@@ -1,21 +1,22 @@
 <script lang="ts">
     import Header from '../components/header.svelte'
     import Footer from '../components/footer.svelte'
+    import Nav from '../components/navbar.svelte'
     import "../app.css";
 </script>
-  
-<header>
-    <Header title="Fitness"/>    
-</header>
+
+<Nav></Nav>
 
 <main>
     <slot />    
 </main>
 
-<footer>
-    <Footer info="My webisute"/>
-</footer>
 
-<style>
-    
+<Footer info="My webisute"/>
+
+
+<style lang="postcss">
+	:global(html) {
+	  background-color: theme(colors.gray.100);
+	}
 </style>

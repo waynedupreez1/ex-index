@@ -13,9 +13,8 @@
 
 <svelte:head>
 	<title>Home</title>
+	<meta name="description" content="A simple, no subscription required exercise searching application, that also works in offline mode."/>
 </svelte:head>
-
-<a href="/about">About</a>
 
 <div class="grid grid-cols-3">
 {#each exercises as { name, force, equipment, gif }}
@@ -31,9 +30,3 @@
   </div>
 {/each}
 </div>
-
-<style lang="postcss">
-	:global(html) {
-	  background-color: theme(colors.yellow.100);
-	}
-</style>

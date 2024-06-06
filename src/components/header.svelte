@@ -2,10 +2,6 @@
     export let title;
 </script>
 
-<svelte:head>
-	<title>{title}</title>
-</svelte:head>
-
 <header>
-	<title>{title}</title> 
+	<h1>{title}</h1> 
 </header>
