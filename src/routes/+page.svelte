@@ -18,7 +18,7 @@
 
 <div class="grid grid-cols-3">
 {#each exercises as { name, force, equipment, gif }}
-<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+<div class="p-6 max-w-32 mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
 	<div class="shrink-0">
 		<img class="block mx-auto h-24 rounded-lg sm:mx-0 sm:shrink-0" src={gif} alt="Girl in a jacket" />
 	</div>
